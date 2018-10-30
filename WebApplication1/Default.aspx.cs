@@ -11,7 +11,37 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            lblpruebas.Text = "Hola Mundo";
+            lblTituloApp.Text = "EvenOrOdd Application";
+        
+        }
+
+        /*
+          Fuction : isEven
+          -----------------
+          compute if a number is even or odd
+          input params: checkNumber: it is the number to check in about
+          returns: if the number is even return true 
+                   if the number is odd return false
+                   */
+  
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+
+            if (Int32.Parse(checkNumberEven.Value) % 2 == 0)
+            {
+
+                Label1.Text = "Even";
+
+            }
+            else
+            {
+                Label1.Text = "Odd";
+
+            }
+
         }
     }
+
+
 }
