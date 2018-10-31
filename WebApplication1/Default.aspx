@@ -18,7 +18,7 @@
            runat="server" OnClick="Button1_Click"/>
         </div>
         <div class="col-md-4">
-            <p>RESULT</p>
+            <p>Result Section</p>
             <p>The number is :</p> <asp:Label ID="Label1" runat="server">  </asp:Label>
         </div>
 
