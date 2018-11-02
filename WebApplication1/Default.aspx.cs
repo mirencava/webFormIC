@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
+  
     public partial class _Default : Page
     {
         protected void Page_Load(object sender, EventArgs e)
@@ -26,25 +27,12 @@ namespace WebApplication1
   
         protected void Button1_Click(object sender, EventArgs e)
         {
-
-            Label1.Text = esImpar(checkNumberEven.Value);
+            Calculos cal = new Calculos();
+            Label1.Text = cal.esImpar(checkNumberEven.Value);
           
 
         }
-        public string esImpar(string valor)
-        {
-            if (Int32.Parse(valor) % 2 == 0)
-            {
-
-               return "Even";
-
-            }
-            else
-            {
-                return "Odd";
-
-            }
-        }
+        
     }
    
 
