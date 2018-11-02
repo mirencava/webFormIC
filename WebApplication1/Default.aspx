@@ -39,7 +39,35 @@
             <p>Result Section</p>
             <p>The number is :</p> <asp:Label ID="Label2" runat="server">  </asp:Label>
         </div>
-
+    </div>
+      <div class="row">
+        <div class="col-md-4">
+            <input type="text" id="Text2" name="checkNumberEven" runat="server" />
+            
+        </div>
+        <div class="col-md-4">
+           <asp:Button id="Button3" Text="Click here for check if the number is even..."   
+           runat="server" OnClick="Button1_Click"/>
+        </div>
+        <div class="col-md-4">
+            <p>Result Section</p>
+            <p>The number is :</p> <asp:Label ID="Label3" runat="server">  </asp:Label>
+        </div>
+    </div>
+      <div class="row">
+        <div class="col-md-4">
+            <input type="text" id="Text3" name="checkNumberEven" runat="server" />
+            
+        </div>
+        <div class="col-md-4">
+           <asp:Button id="Button4" Text="Click here for check if the number is even..."   
+           runat="server" OnClick="Button1_Click"/>
+        </div>
+        <div class="col-md-4">
+            <p>Result Section</p>
+            <p>The number is :</p> <asp:Label ID="Label4" runat="server">  </asp:Label>
+        </div>
+    </div>
         
 
 
