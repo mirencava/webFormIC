@@ -27,10 +27,11 @@ namespace WebApplication1
         protected void Button1_Click(object sender, EventArgs e)
         {
 
-            Label1.Text = EsImpar(checkNumberEven.Value);          
+            Label1.Text = esImpar(checkNumberEven.Value);
+          
 
         }
-        public string EsImpar(string valor)
+        public string esImpar(string valor)
         {
             if (Int32.Parse(valor) % 2 == 0)
             {
