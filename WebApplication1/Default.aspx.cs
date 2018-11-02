@@ -12,7 +12,7 @@ namespace WebApplication1
         protected void Page_Load(object sender, EventArgs e)
         {
             lblTituloApp.Text = "EvenOrOdd Application";
-        
+            
         }
 
         /*
@@ -27,21 +27,24 @@ namespace WebApplication1
         protected void Button1_Click(object sender, EventArgs e)
         {
 
+            Label1.Text = EsImpar(checkNumberEven.Value);          
 
-            if (Int32.Parse(checkNumberEven.Value) % 2 == 0)
+        }
+        public string EsImpar(string valor)
+        {
+            if (Int32.Parse(valor) % 2 == 0)
             {
 
-                Label1.Text = "Even";
+               return "Even";
 
             }
             else
             {
-                Label1.Text = "Odd";
+                return "Odd";
 
             }
-
         }
     }
-
+   
 
 }
