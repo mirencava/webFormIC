@@ -301,12 +301,12 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  <UsingTask AssemblyFile="..\packages\xunit.runner.msbuild.2.4.1\build\net452\xunit.runner.msbuild.net452.dll" TaskName="Xunit.Runner.MSBuild.xunit" />
+  <!--<UsingTask AssemblyFile="..\packages\xunit.runner.msbuild.2.4.1\build\net452\xunit.runner.msbuild.net452.dll" TaskName="Xunit.Runner.MSBuild.xunit" />
   <ItemGroup>
     <TestAssemblies Include="**/bin/**/XUnitTestProject1.dll" />
   </ItemGroup>
   <Target Name="AfterBuild" >
     <xunit Assemblies="@(TestAssemblies)" />
-  </Target>
+  </Target>-->
   <!-- Xunit Build task-->
 </Project>
