@@ -6,7 +6,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\mirenjosune.cava\source\repos\WebApplication2\WebApplication2\bin\Release\Publish</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\mirenjosune.cava\source\repos\WebApplication2\webFormIC\WebApplication2\bin\Release\Publish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="About.aspx">
@@ -28,7 +28,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>07/30/2013 17:01:46</publishTime>
     </File>
     <File Include="bin/es/System.Web.Optimization.resources.dll">
-      <publishTime>02/11/2014 14:28:40</publishTime>
+      <publishTime>02/11/2014 15:28:40</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
       <publishTime>07/30/2013 16:57:30</publishTime>
@@ -199,10 +199,10 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>11/02/2018 13:31:13</publishTime>
     </File>
     <File Include="bin/WebApplication2.dll">
-      <publishTime>11/08/2018 12:57:48</publishTime>
+      <publishTime>11/13/2018 12:33:27</publishTime>
     </File>
     <File Include="bin/WebApplication2.pdb">
-      <publishTime>11/08/2018 12:57:48</publishTime>
+      <publishTime>11/13/2018 12:33:27</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 12:57:34</publishTime>
@@ -364,7 +364,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>11/08/2018 12:55:16</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/08/2018 12:57:48</publishTime>
+      <publishTime>11/13/2018 12:33:27</publishTime>
     </File>
   </ItemGroup>
 </Project>
