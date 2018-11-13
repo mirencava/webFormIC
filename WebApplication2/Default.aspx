@@ -21,6 +21,11 @@
             <p>The number is :</p> <asp:Label ID="Label1" runat="server">  </asp:Label>
         </div>
 
+         <div class="col-md-4">
+            <p>Result Section</p>
+            <p>The number is :</p> <asp:Label ID="Label2" runat="server">  </asp:Label>
+        </div>
+
         
     </div>
  
